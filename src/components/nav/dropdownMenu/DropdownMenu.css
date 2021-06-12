@@ -1,0 +1,29 @@
+.dd-menu {
+    padding: 1.2rem 0 1.2rem 0;
+    box-shadow: none;
+    z-index: auto;
+    background-color: #ffffff;
+    min-height: 3.25rem;
+    position: relative;
+    display: block;
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+.ddmenu::before, .dd-menu::after {
+    box-sizing: inherit;
+}
+
+.menu-container {
+    display: block;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    min-height: 3.25rem;
+    width: 100%;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    margin: 0 auto;
+    position: relative;
+}
