@@ -1,0 +1,38 @@
+.landing-container {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  margin-top: calc(25vh);
+  color: #141c3a;
+}
+
+.lc-title {
+  font-size: 2.75rem;
+  margin: 0;
+  font-weight: 800;
+  line-height: 1.125;
+}
+
+.lc-subtitle {
+  margin: 0;
+  line-height: 1.125;
+  font-size: 2rem;
+  font-weight: 575;
+}
+
+.lc-heading {
+  font-family: "Roboto", sans-serif;
+  margin: 5vh 1.75vw auto 1.75vw;
+  font-size: 1.25rem;
+}
+
+.avatar {
+  margin: 2rem 0;
+  width: 200px;
+}
+
+.coders-image {
+  width: 300px;
+  margin-bottom: 0;
+}
