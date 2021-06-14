@@ -1,16 +1,18 @@
 .about-container {
     width: 100vw;
     height: 100vh;
+    padding-top: 1rem;
     background: #7510F7;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Inter', sans-serif;
     text-align: center;
-    padding-top: 5rem;
 }
 
 .about-header {
     margin: 0 0.83rem 1.5rem 0.83rem;
     color: #FFFFFF;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 800;
+    padding-top: 4rem;
 }
 
 .about-pgh {
@@ -18,6 +20,6 @@
     font-size: 1.25rem;
     color: #FBFBFF;
     margin: 0 0.83rem 24px 0.83rem;
-    line-height: 1.5rem;
+    line-height: 1.7rem;
     letter-spacing: 0.1rem;
 }

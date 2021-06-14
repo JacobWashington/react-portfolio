@@ -10,7 +10,7 @@ const DropdownMenu = () => {
   const handleClick = () => setClick(!click);
 
   return (
-    <div className="navbar">
+    <nav className="navbar">
       <div className="nav-container">
         <Link to="/" className="nav-logo" style={{ textDecoration: "none" }}>
           <Logo />
@@ -24,6 +24,7 @@ const DropdownMenu = () => {
               to="/"
               className="nav-link"
               style={{ textDecoration: "none" }}
+              onClick={handleClick}
             >
               Home
             </Link>
@@ -33,8 +34,9 @@ const DropdownMenu = () => {
               to="/about"
               className="nav-link"
               style={{ textDecoration: "none" }}
+              onClick={handleClick}
             >
-              AboutMe
+              About
             </Link>
           </li>
           <li className="nav-item">
@@ -42,6 +44,7 @@ const DropdownMenu = () => {
               to="/tech"
               className="nav-link"
               style={{ textDecoration: "none" }}
+              onClick={handleClick}
             >
               Tech
             </Link>
@@ -51,6 +54,7 @@ const DropdownMenu = () => {
               to="/projects"
               className="nav-link"
               style={{ textDecoration: "none" }}
+              onClick={handleClick}
             >
               Projects
             </Link>
@@ -60,6 +64,7 @@ const DropdownMenu = () => {
               to="/education"
               className="nav-link"
               style={{ textDecoration: "none" }}
+              onClick={handleClick}
             >
               Education
             </Link>
@@ -69,8 +74,19 @@ const DropdownMenu = () => {
               to="/experience"
               className="nav-link"
               style={{ textDecoration: "none" }}
+              onClick={handleClick}
             >
               Experience
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="/testimonies"
+              className="nav-link"
+              style={{ textDecoration: "none" }}
+              onClick={handleClick}
+            >
+              Testimonials
             </Link>
           </li>
           <li className="nav-item">
@@ -78,13 +94,14 @@ const DropdownMenu = () => {
               to="/contact"
               className="nav-link"
               style={{ textDecoration: "none" }}
+              onClick={handleClick}
             >
-              ContactMe
+              Contact
             </Link>
           </li>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 };
 
