@@ -8,7 +8,6 @@ const Experience = (props) => {
   const handleClick = () => setClicked(!clicked);
 
   let bullet = props.bullets.map((bullet, index) => {
-      console.log("CHARACTER COUNT",bullet.length)
     return (
       <li className="exp-bullet" key={index}>
         {bullet}
