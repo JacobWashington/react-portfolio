@@ -5,7 +5,7 @@ import "./Landing.css";
 
 const Landing = () => {
   return (
-    <div className="landing-container">
+    <div className="container landing">
       <p className="lc-title">Jacob Washington</p>
       <p className="lc-subtitle">Full Stack Developer</p>
       <p className="lc-heading">I create beautiful, simple applications from front to back.</p>

@@ -9,14 +9,14 @@ const Experience = (props) => {
 
   let bullet = props.bullets.map((bullet, index) => {
     return (
-      <li className="exp-bullet" key={index}>
+      <li className="exp-bullet statement" key={index}>
         {bullet}
       </li>
     );
   });
 
   return (
-    <div className={clicked ? "exp-container back" : "exp-container"} onClick={handleClick}>
+    <div className={clicked ? "card back" : "card"} onClick={handleClick}>
       <div className={clicked ? "card-front inactive" : "card-front"}>
         <div className="co-logo-container">
           <img className="co-logo" src={props.logo} width="100%" />

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <title>logo</title>
+  <path d="M 329.941 0 L 249.557 142.871 L 88.893 142.871 L 169.216 0 Z" opacity=".45" style=""/>
+  <path d="M 249.557 142.871 L 410.264 142.871 L 329.947 0 L 169.216 0 Z" opacity=".6" style=""/>
+  <path d="M 169.216 285.681 L 249.557 142.871 L 169.216 0 L 88.893 142.871 Z" opacity=".8" style=""/>
+  <path d="M 170.003 500 L 250.387 357.129 L 411.107 357.129 L 330.722 500 Z" opacity=".45" style=""/>
+  <path d="M 250.387 357.129 L 89.68 357.129 L 170.003 500 L 330.722 500 Z" opacity=".6" style=""/>
+  <path d="M 330.722 214.307 L 250.387 357.129 L 330.722 500 L 411.107 357.129 Z" opacity=".8" style=""/>
+</svg>

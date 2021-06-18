@@ -81,16 +81,6 @@ const DropdownMenu = () => {
           </li>
           <li className="nav-item">
             <Link
-              to="/testimonies"
-              className="nav-link"
-              style={{ textDecoration: "none" }}
-              onClick={handleClick}
-            >
-              Testimonials
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
               to="/contact"
               className="nav-link"
               style={{ textDecoration: "none" }}

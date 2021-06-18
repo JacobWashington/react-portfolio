@@ -1,18 +1,11 @@
-.exp-container {
-  width: 45vw;
-  height: fit-content;
-  text-align: center;
-  font-family: "Inter", sans-serif;
-  padding: 40px;
-  border-radius: 12px;
-  box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
-  margin: 0 auto 2rem auto;
-}
-
 .co-logo {
   max-width: 200px;
   min-width: 100px;
   margin: 0;
+}
+
+.back {
+  text-align: left;
 }
 
 .role {
@@ -28,21 +21,15 @@
     display: none;
 }
 
-.card-back {
-    display: flex;
-    overflow: hidden;
-}
-
-.exp-container.back {
-    padding: 40px;
-}
-
 .card-back.inactive {
     display: none;
 }
 
 .exp-bullets {
-    list-style: none;
     margin: 0;
     padding: 0;
+}
+
+.exp-bullet {
+  margin-bottom: 1rem;
 }

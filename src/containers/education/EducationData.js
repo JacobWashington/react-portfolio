@@ -1,5 +1,5 @@
-import SCC from "./images/logos/SCClogo.svg";
-import GA from "./images/logos/GAlogo.svg";
+import SCC from "../../images/logos/SCClogo.svg";
+import GA from "../../images/logos/GAlogo.svg";
 
 const EducationData = [
   {

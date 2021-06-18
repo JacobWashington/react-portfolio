@@ -1,7 +1,7 @@
 import React from "react";
 import "./WorkExperience.css";
 import Experience from "../../components/experience/Experience";
-import EmploymentData from "../../EmploymentData";
+import EmploymentData from "./EmploymentData";
 
 const WorkExperience = () => {
   let mappedExperience = EmploymentData.map((exp, index) => {
@@ -15,7 +15,7 @@ const WorkExperience = () => {
       />
     );
   });
-  return <div className="wk-exp-container">
+  return <div className="container work-history">
       {mappedExperience}
   </div>;
 };

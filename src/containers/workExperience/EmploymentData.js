@@ -1,7 +1,7 @@
- import Disney from "./images/logos/disney.svg";
- import USArmy from "./images/logos/us-army.svg";
- import StarProtection from "./images/logos/star-2.svg";
- import SWAir from "./images/logos/southwest-airlines-4.svg";
+ import Disney from "../../images/logos/disney.svg";
+ import USArmy from "../../images/logos/us-army.svg";
+ import StarProtection from "../../images/logos/star-2.svg";
+ import SWAir from "../../images/logos/southwest-airlines-4.svg";
  
  const EmploymentData = [
   {
