@@ -1,3 +1,48 @@
-.contact-container {
-margin-top: 10vh;
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.5rem;
+  width: 100%;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  margin: 0;
+  background: #7510f7;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 1.75rem;
+}
+
+.other-contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.email, .call-text {
+  padding: 1rem 0 0 0;
+}
+
+.description {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.contact-content {
+  font-size: 1.25rem;
+}
+
+.footer-p {
+  margin: 0;
+  color: #e6ecf8;
+  width: 70vw;
+}
+
+.last {
+  margin-top: 1rem;
+  font-size: 0.75rem;
 }

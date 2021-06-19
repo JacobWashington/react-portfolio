@@ -1,6 +1,6 @@
 import { React, useState } from "react";
 import "./DropdownMenu.css";
-import { Link } from "react-router-dom";
+import { a } from "react-router-dom";
 import Logo from "../logo/Logo";
 import { FaBars, FaTimes } from "react-icons/fa";
 
@@ -12,82 +12,42 @@ const DropdownMenu = () => {
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <Link to="/" className="nav-logo" style={{ textDecoration: "none" }}>
+        <a href="/" className="nav-logo" style={{ textDecoration: "none" }}>
           <Logo />
-        </Link>
+        </a>
         <div className="menu-icon" onClick={handleClick}>
           {click ? <FaTimes /> : <FaBars />}
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <Link
-              to="/"
-              className="nav-link"
-              style={{ textDecoration: "none" }}
-              onClick={handleClick}
-            >
+            <a href="/" className="nav-a" onClick={handleClick}>
               Home
-            </Link>
+            </a>
           </li>
           <li className="nav-item">
-            <Link
-              to="/about"
-              className="nav-link"
-              style={{ textDecoration: "none" }}
-              onClick={handleClick}
-            >
+            <a href="/about" className="nav-a" onClick={handleClick}>
               About
-            </Link>
+            </a>
           </li>
           <li className="nav-item">
-            <Link
-              to="/tech"
-              className="nav-link"
-              style={{ textDecoration: "none" }}
-              onClick={handleClick}
-            >
+            <a href="/tech" className="nav-a" onClick={handleClick}>
               Tech
-            </Link>
+            </a>
           </li>
           <li className="nav-item">
-            <Link
-              to="/projects"
-              className="nav-link"
-              style={{ textDecoration: "none" }}
-              onClick={handleClick}
-            >
+            <a href="/projects" className="nav-a" onClick={handleClick}>
               Projects
-            </Link>
+            </a>
           </li>
           <li className="nav-item">
-            <Link
-              to="/education"
-              className="nav-link"
-              style={{ textDecoration: "none" }}
-              onClick={handleClick}
-            >
+            <a href="/education" className="nav-a" onClick={handleClick}>
               Education
-            </Link>
+            </a>
           </li>
           <li className="nav-item">
-            <Link
-              to="/experience"
-              className="nav-link"
-              style={{ textDecoration: "none" }}
-              onClick={handleClick}
-            >
+            <a href="/experience" className="nav-a" onClick={handleClick}>
               Experience
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/contact"
-              className="nav-link"
-              style={{ textDecoration: "none" }}
-              onClick={handleClick}
-            >
-              Contact
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

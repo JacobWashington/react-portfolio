@@ -1,5 +1,20 @@
+.education {
+  background: #7510f7;
+}
+
 .edu {
-    height: 100vh;
-    text-align: center;
-    display: block;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.edu-title {
+  margin: 1.868rem;
+  color: white;
+}
+
+.edu .card {
+    box-shadow: 0 5px 5px 0 rgb(0 0 0 / 50%), 0 0 0 1px #e6ecf8;
 }

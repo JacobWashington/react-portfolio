@@ -21,8 +21,10 @@ const Experience = (props) => {
         <div className="co-logo-container">
           <img className="co-logo" src={props.logo} width="100%" />
         </div>
-        <div className="role">{props.role}</div>
-        <div className="co-title">{props.company}</div>
+        <div className="card-headings">
+          <div className="role">{props.role}</div>
+          <div className="co-title">{props.company}</div>
+        </div>
       </div>
       <div className={clicked ? "card-back" : "card-back inactive"}>
         <ul className="exp-bullets">{bullet}</ul>

@@ -12,18 +12,14 @@ import Tech from "./containers/tech/Tech";
 const App = () => {
   return (
     <div className="App">
-      <Router>
         <DropdownMenu />
-        <Switch>
-          <Route path="/" exact component={Landing} />
-          <Route path="/about" component={About} />
-          <Route path="/projects" component={FeaturedProjects} />
-          <Route path="/education" component={Education} />
-          <Route path="/experience" component={WorkExperience} />
-          <Route path="/contact" component={ContactMe} />
-          <Route path="/tech" component={Tech} />
-        </Switch>
-      </Router>
+        <Landing />
+        <About />
+        <Tech />
+        <FeaturedProjects />
+        <Education />
+        <WorkExperience />
+        <ContactMe />
     </div>
   );
 };

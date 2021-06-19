@@ -1,20 +1,46 @@
 .App {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  width: 100vw;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  font-family: "Roboto Slab", serif;
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.125;
+  width: 90vw;
+}
+
+.section-heading {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
 }
 
 .container {
   margin-top: 10vh;
-  padding: 5rem 1.5rem;
+  padding: 5rem 0 1.5rem 0;
 }
 
 .card {
   width: 50vw;
-  height: fit-content;
   text-align: center;
   font-family: "Inter", sans-serif;
   padding: 40px;
   border-radius: 12px;
   box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
   margin: 0 auto 2rem auto;
+  background: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
 }

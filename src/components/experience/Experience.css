@@ -4,8 +4,13 @@
   margin: 0;
 }
 
+.card-headings {
+  padding-top: 1rem;
+}
+
 .back {
   text-align: left;
+  margin-bottom: 1rem;
 }
 
 .role {

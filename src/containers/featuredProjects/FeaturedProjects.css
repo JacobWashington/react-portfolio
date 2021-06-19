@@ -1,4 +1,22 @@
-.fp-container {
-    width: 100vw;
-    height: 100vh;
+.featured-projects {
+    border-top: 1px solid #E6ECF8;
+}
+
+.fp {
+    padding: 1.5rem 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fp-title {
+    margin: 0;
+}
+
+.fp-heading {
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    width: 90vw;
 }

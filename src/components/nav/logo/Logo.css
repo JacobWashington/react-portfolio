@@ -14,3 +14,14 @@
     font-size: 1.25rem;
     margin: 0.25rem;
 }
+
+.footer-logo {
+    background-color: white;
+    padding: .25rem;
+    color: black;
+    text-align: center;
+    width: 12vw;
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 1.25rem;
+}

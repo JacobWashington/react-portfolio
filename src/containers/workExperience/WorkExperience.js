@@ -15,9 +15,15 @@ const WorkExperience = () => {
       />
     );
   });
-  return <div className="container work-history">
-      {mappedExperience}
-  </div>;
+
+  return (
+    <div className="section">
+      <div className="section-title">
+        <h2 className="work-title">My Work History</h2>
+      </div>
+      <div className="container work-history">{mappedExperience}</div>
+    </div>
+  );
 };
 
 export default WorkExperience;

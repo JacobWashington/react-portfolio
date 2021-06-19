@@ -1,33 +1,38 @@
-.about{
-    width: 100vw;
-    height: fit-content;
-    font-family: 'Inter', sans-serif;
-    text-align: center;
+.about {
+  width: 100vw;
+  background: #7510f7;
+  height: fit-content;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  padding-top: 0;
+  margin-top: 0;
 }
 
-.mission, .why-me{
-    text-align: left;
+.mission,
+.why-me {
+  text-align: left;
+  border-radius: 2px;
+  box-shadow: 0 5px 5px 0 rgb(0 0 0 / 50%), 0 0 0 1px #e6ecf8;
 }
 
-.about-header {
-    margin: 0 0.83rem 1.5rem 0.83rem;
-    font-size: 2.5rem;
-    font-weight: 800;
+.about-title {
+  color: white;
+  font-weight: 600;
 }
 
 .about-sub-heading {
-    font-weight: 600;
-    font-size: 1.5rem;
-    margin: 0;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 0;
 }
 
 .statement {
-    font-weight: 300;
-    font-size: 0.875rem;
-    line-height: 1.7rem;
-    letter-spacing: 0.1rem;
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.1rem;
 }
 
 .keyword {
-    color: #f77510;
+  color: #f77510;
 }

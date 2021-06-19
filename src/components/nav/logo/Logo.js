@@ -1,14 +1,16 @@
-import React from 'react';
+import React from "react";
 import "./Logo.css";
 
-const Logo = () => {
-    return (
-        <div className="logo">
-            <div className="logo-container">
-                <p className="logo-text">j.Dev</p>
-            </div>
+const Logo = (props) => {
+  return (
+    <a href="/">
+      <div className="logo">
+        <div className={props.class ? props.class : "logo-container"}>
+          <p className="logo-text">j.Dev</p>
         </div>
-    );
-}
+      </div>
+    </a>
+  );
+};
 
 export default Logo;
