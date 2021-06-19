@@ -1,7 +1,7 @@
 {
   "hosting": {
     "site": "jdotdev",
-    "public": "src",
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",
